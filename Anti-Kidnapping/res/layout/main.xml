@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/a" >
+    
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/btn_set" />
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:src="@drawable/btn_call" />
+
+    <ImageButton
+        android:id="@+id/medical_call"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/call"
+        android:background="@null"
+        android:src="@drawable/btn_medical" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/call"
+    android:layout_marginRight="22dp"
+    android:layout_toLeftOf="@+id/sos"
+    android:src="@drawable/general" />
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/imageView4"
+    android:layout_below="@+id/fireman_call"
+    android:src="@drawable/fireman" />
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/imageView1"
+    android:layout_marginLeft="29dp"
+    android:layout_toRightOf="@+id/sos"
+    android:src="@drawable/medical" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/imageView3"
+    android:layout_alignRight="@+id/imageView1"
+    android:layout_marginRight="9dp"
+    android:src="@drawable/police" />
+
+<ImageButton
+    android:id="@+id/police_call"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_above="@+id/imageView3"
+    android:layout_alignParentLeft="true"
+    android:background="@null"
+    android:src="@drawable/btn_police" />
+
+<ImageButton
+    android:id="@+id/fireman_call"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/sos"
+    android:background="@null"
+    android:src="@drawable/btn_fireman" />
+
+<Button
+    android:id="@+id/sos"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignLeft="@+id/setting"
+    android:layout_below="@+id/imageView1"
+    android:layout_marginTop="24dp"
+    android:background="@drawable/btn_help" />
+
+</RelativeLayout>
