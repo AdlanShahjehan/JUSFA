@@ -1,8 +1,0 @@
-INDEX VERSION 1.126+C:\Proj_Anti_Kidnapping\Anti-Kidnapping\.metadata\.plugins\org.eclipse.jdt.core
-4254637834.index
-715257351.index
-997883221.index
-4048581448.index
-2722800936.index
-680953526.index
-3596446525.index
